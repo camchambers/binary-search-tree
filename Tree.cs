@@ -15,7 +15,7 @@ using System;
 
 namespace BinarySearchTree
 {
-    class Tree
+    class BinarySearchTree
     {
         /// <summary>
         /// Inserts a new node into the tree
@@ -59,6 +59,8 @@ namespace BinarySearchTree
 
             // Print out the value of the current node
             Console.WriteLine(root.value);
+
+            // Traverse the tree
             traverse(root.left);
             traverse(root.right);
         }
