@@ -1,0 +1,5 @@
+obj/
+*.code-workspace
+.vscode
+bin
+*.csproj
